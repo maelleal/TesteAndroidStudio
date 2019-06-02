@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string name="button">Button</string>
+    <string name="raptorsapp">RaptorsApp</string>
+    <string name="name">Name</string>
+    <string name="edit_message">Usuario</string>
+    <string name="entrar">Entrar</string>
+    <string name="senha">Senha</string>
+    <string name="bem_vindo">Bem Vindo</string>
+    <string name="jogos">Jogos</string>
+</resources>
