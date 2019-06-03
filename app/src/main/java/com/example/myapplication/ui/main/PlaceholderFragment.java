@@ -56,32 +56,40 @@ public class PlaceholderFragment extends Fragment {
         // 1 == Resultados
         // 2 == Jogos
         // 3 == Equipe
-        if( pageViewModel.getIndex() == 0){
-            View root = inflater.inflate(R.layout.fragment_noticias, container, false);
-            ListView listaNot = (ListView) root.findViewById(R.id.lv_noticias);
-            final ArrayList<String> noticias = preencheDadosNoticias();
+        switch (pageViewModel.getIndex()){
+            case 0:
+                View root = inflater.inflate(R.layout.fragment_noticias, container, false);
+                ListView listaNot = (ListView) root.findViewById(R.id.lv_noticias);
+                final ArrayList<String> noticias = preencheDadosNoticias();
 
-            ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_list_item_1, noticias);
-            listaNot.setAdapter(arrayAdapter);
+                ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_list_item_1, noticias);
+                listaNot.setAdapter(arrayAdapter);
 
-            listaNot.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-                @Override
-                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    Toast.makeText(getContext(), "Noticia: "+ noticias.get(position).toString(), Toast.LENGTH_SHORT).show();
-                }
-            });
-            return root;
-        }else {
-            View root = inflater.inflate(R.layout.fragment_home_page, container, false);
-            final TextView textView = root.findViewById(R.id.section_label);
-            pageViewModel.getText().observe(this, new Observer<String>() {
-                @Override
-                public void onChanged(@Nullable String s) {
-                    textView.setText(s);
-                }
-            });
-            return root;
+                listaNot.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                        Toast.makeText(getContext(), "Noticia: "+ noticias.get(position).toString(), Toast.LENGTH_SHORT).show();
+                    }
+                });
+                return root;
+//            case 1:
+//                break;
+//            case 2:
+//                break;
+//            case 3:
+//                break;
+                default:
+                    root = inflater.inflate(R.layout.fragment_home_page, container, false);
+                    final TextView textView = root.findViewById(R.id.section_label);
+                    pageViewModel.getText().observe(this, new Observer<String>() {
+                        @Override
+                        public void onChanged(@Nullable String s) {
+                            textView.setText(s);
+                        }
+                    });
+                    return root;
         }
+
     }
 
     public ArrayList<String> preencheDadosNoticias(){
