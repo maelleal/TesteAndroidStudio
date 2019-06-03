@@ -8,4 +8,14 @@
     <string name="senha">Senha</string>
     <string name="bem_vindo">Bem Vindo</string>
     <string name="jogos">Jogos</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="tab_jogos">Resultados</string>
+    <string name="tab_jogadores">Equipe</string>
+    <string name="tab_noticias">Noticias</string>
+    <string name="tab_prox_jogos">Jogos</string>
+    <string name="title_activity_home_page">HomePage</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
