@@ -1,6 +1,7 @@
 package com.example.myapplication.ui.main;
 
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -59,23 +60,12 @@ public class PlaceholderFragment extends Fragment {
         switch (pageViewModel.getIndex()){
             case 0:
                 View root = inflater.inflate(R.layout.fragment_noticias, container, false);
-                ListView listaNot = (ListView) root.findViewById(R.id.lv_noticias);
-                final ArrayList<String> noticias = preencheDadosNoticias();
-
-                ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_list_item_1, noticias);
-                listaNot.setAdapter(arrayAdapter);
-
-                listaNot.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-                    @Override
-                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                        Toast.makeText(getContext(), "Noticia: "+ noticias.get(position).toString(), Toast.LENGTH_SHORT).show();
-                    }
-                });
                 return root;
 //            case 1:
 //                break;
-//            case 2:
-//                break;
+            case 2:
+                root = inflater.inflate(R.layout.fragment_prox_jogos, container, false);
+                return root;
 //            case 3:
 //                break;
                 default:
@@ -90,14 +80,5 @@ public class PlaceholderFragment extends Fragment {
                     return root;
         }
 
-    }
-
-    public ArrayList<String> preencheDadosNoticias(){
-        ArrayList<String> dados = new ArrayList<String>();
-        dados.add("Quanto Toronto Raptors e Golden State Warriors gastaram para chegar às Finais da NBA");
-        dados.add("Kawhi prega jogo coletivo dos Raptors antes do jogo 2 das finais da NBA");
-        dados.add("Nike veste Air Max 90 com as cores do Toronto Raptors");
-        dados.add("Drake quebra acordo, e comportamento do rapper vira problema para a NBA");
-    return dados;
     }
 }

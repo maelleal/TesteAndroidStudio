@@ -16,7 +16,25 @@
     <string name="tab_teste">Teste</string>
     <string name="title_activity_home_page">HomePage</string>
 
+    <!-- STRING E LINKS PARA NOTICIAS -->
+    <string name="noticia1">1 - Warriors calam Toronto e empatam Finais contra os Raptors em dia de lesão de Klay Thompson</string>
+    <string name="subnoticia1">Na Scotiabank Arena, Golden State Warriors e Toronto Raptors se enfrentaram neste domingo pelo jogo 2 das Finais da NBA, e após uma... </string>
+    <string name="noticia2">2 - Quanto Toronto Raptors e Golden State Warriors gastaram para chegar às Finais da NBA</string>
+    <string name="subnoticia2">Chegar nas finais da NBA, não é barato. Toronto Raptors e Golden State Warriors gastaram muito para... </string>
+    <string name="noticia3">3 - Kawhi prega jogo coletivo dos Raptors antes do jogo 2 das finais da NBA</string>
+    <string name="subnoticia3">Principal destaque do Toronto Raptors, o ala Kawhi Leonard desembarcou nesta temporada no Canadá e já fez história com a franquia, ao levar pela... </string>
+    <string name="noticia4">4 - Nike veste Air Max 90 com as cores do Toronto Raptors</string>
+    <string name="subnoticia4">Pela primeira vez em seus 24 anos de história, o Toronto Raptors está nas finais da NBA e, independentemente de ganhar ou não, seus fãs estão...</string>
+    <string name="noticia5">4 - Drake quebra acordo, e comportamento do rapper vira problema para a NBA</string>
+    <string name="subnoticia5">A NBA até tentou segurar o ímpeto do rapper Drake, que tem roubado a cena nos playoffs desta temporada, mas não deu. Antes de...</string>
+    <string name="link_noticia1">https://www.espn.com.br/nba/artigo/_/id/5690379/warriors-calam-toronto-e-empatam-finais-contra-os-raptors-em-dia-de-les%C3%A3o-de-klay-thompson</string>
+    <string name="link_noticia2">https://www.espn.com.br/nba/artigo/_/id/5679460/quanto-toronto-raptors-e-golden-state-warriors-gastaram-para-chegar-%C3%A0s-finais-da-nba</string>
+    <string name="link_noticia3">https://www.gazetaesportiva.com/campeonatos/nba/kawhi-prega-jogo-coletivo-dos-raptors-antes-do-jogo-2-das-finais-da-nba/</string>
+    <string name="link_noticia4">https://portalrapmais.com/nike-air-max-90-toronto-raptors/</string>
+    <string name="link_noticia5">https://esporte.uol.com.br/basquete/ultimas-noticias/2019/06/02/drake-quebra-acordo-e-comportamento-em-quadra-vira-problema-para-nba.htm</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="time_tr">Toronto Raptors</string>
+    <string name="time_gsw">Golden St. Warriors</string>
 
 </resources>
