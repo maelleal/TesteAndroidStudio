@@ -57,27 +57,29 @@ public class PlaceholderFragment extends Fragment {
         // 1 == Resultados
         // 2 == Jogos
         // 3 == Equipe
-        switch (pageViewModel.getIndex()){
+        switch (pageViewModel.getIndex()) {
             case 0:
                 View root = inflater.inflate(R.layout.fragment_noticias, container, false);
                 return root;
-//            case 1:
-//                break;
+            case 1:
+                root = inflater.inflate(R.layout.fragment_resultados, container, false);
+                return root;
             case 2:
                 root = inflater.inflate(R.layout.fragment_prox_jogos, container, false);
                 return root;
-//            case 3:
-//                break;
-                default:
-                    root = inflater.inflate(R.layout.fragment_home_page, container, false);
-                    final TextView textView = root.findViewById(R.id.section_label);
-                    pageViewModel.getText().observe(this, new Observer<String>() {
-                        @Override
-                        public void onChanged(@Nullable String s) {
-                            textView.setText(s);
-                        }
-                    });
-                    return root;
+            case 3:
+                root = inflater.inflate(R.layout.fragment_team, container, false);
+                return root;
+            default:
+                root = inflater.inflate(R.layout.fragment_home_page, container, false);
+                final TextView textView = root.findViewById(R.id.section_label);
+                pageViewModel.getText().observe(this, new Observer<String>() {
+                    @Override
+                    public void onChanged(@Nullable String s) {
+                        textView.setText(s);
+                    }
+                });
+                return root;
         }
 
     }

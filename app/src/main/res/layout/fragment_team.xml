@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrllvwNo1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/teamMember"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/teamMember"
+                android:textAlignment="center"
+                android:textSize="20pt" />
+
+            <TextView
+                android:id="@+id/teamMember0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75px"
+                android:autoLink="all"
+                android:padding="5px"
+                android:text="@string/teamMember0"
+                android:textSize="10pt"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/teamMember00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10px"
+                android:padding="5dp"
+                android:text="@string/teamMember00" />
+
+            <TextView
+                android:id="@+id/teamMember1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75px"
+                android:autoLink="all"
+                android:padding="5px"
+                android:text="@string/teamMember1"
+                android:textSize="10pt"
+                android:textColor="#000" />
+            <TextView
+                android:id="@+id/teamMember10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10px"
+                android:padding="5dp"
+                android:onClick="memberKawhiLeonard"
+                android:text="@string/teamMember10" />
+            <TextView
+                android:id="@+id/teamMember2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75px"
+                android:autoLink="all"
+                android:padding="5px"
+                android:text="@string/teamMember2"
+                android:textSize="10pt"
+                android:textColor="#000" />
+            <TextView
+                android:id="@+id/teamMember20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10px"
+                android:padding="5dp"
+                android:onClick="memberKyleLowry"
+                android:text="@string/teamMember20" />
+            <TextView
+                android:id="@+id/teamMember3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75px"
+                android:autoLink="all"
+                android:padding="5px"
+                android:text="@string/teamMember3"
+                android:textSize="10pt"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/teamMember30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10px"
+                android:padding="5dp"
+                android:onClick="memberPascalSiakam"
+                android:text="@string/teamMember30" />
+
+            <TextView
+                android:id="@+id/teamMember4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75px"
+                android:autoLink="all"
+                android:padding="5px"
+                android:text="@string/teamMember4"
+                android:textSize="10pt"
+                android:textColor="#000" />
+            <TextView
+                android:id="@+id/teamMember40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10px"
+                android:padding="5dp"
+                android:onClick="memberMarcGasol"
+                android:text="@string/teamMember40" />
+            <TextView
+                android:id="@+id/teamMember5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75px"
+                android:autoLink="all"
+                android:padding="5px"
+                android:text="@string/teamMember5"
+                android:textSize="10pt"
+                android:textColor="#000" />
+            <TextView
+                android:id="@+id/teamMember50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10px"
+                android:padding="5dp"
+                android:text="@string/teamMember50" />
+            <TextView
+                android:id="@+id/teamMember6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75px"
+                android:autoLink="all"
+                android:padding="5px"
+                android:text="@string/teamMember6"
+                android:textSize="10pt"
+                android:textColor="#000" />
+            <TextView
+                android:id="@+id/teamMember60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10px"
+                android:padding="5dp"
+                android:text="@string/teamMember60" />
+            <TextView
+                android:id="@+id/teamMember7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75px"
+                android:autoLink="all"
+                android:padding="5px"
+                android:text="@string/teamMember7"
+                android:textSize="10pt"
+                android:textColor="#000" />
+            <TextView
+                android:id="@+id/teamMember70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10px"
+                android:padding="5dp"
+                android:text="@string/teamMember70" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

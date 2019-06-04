@@ -55,12 +55,91 @@ public class HomePage extends AppCompatActivity {
         startActivity(i);
     }
 
-    public void noticiaFive(View view){
-        String url = "https://esporte.uol.com.br/basquete/ultimas-noticias/2019/06/02/drake-quebra-acordo-e-comportamento-em-quadra-vira-problema-para-nba.htm";
+    public void jogo2Gt(View view){
+        String url = "https://www.youtube.com/embed/M3wCD7yCkiw";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+
+    }public void jogo1Gt(View view){
+        String url = "https://www.youtube.com/watch?v=qPkX85yzlUc&feature=onebox";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+
+    }public void jogo6Mb(View view){
+        String url = "https://www.youtube.com/watch?v=-YB0APx6fmo&feature=onebox";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+
+    }public void jogo5Mb(View view){
+        String url = "https://www.youtube.com/watch?v=C7CVTpaRa7g&t=1s";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+
+    }public void jogo4Mb(View view){
+        String url = "https://www.youtube.com/watch?v=F2vZSkb8Spw&feature=onebox";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+    }
+    public void estadioRaptors(View view){
+        Uri uri = Uri.parse("geo:0,0?q=" + "Scotiabank Arena" + ", " + "40 Bay St, Toronto, ON M5J 2X2, Canadá");
+        Intent mapIntent = new Intent(Intent.ACTION_VIEW, uri);
+        mapIntent.setPackage("com.google.android.apps.maps");
+        startActivity(mapIntent);
+    }
+
+    public void estadioGolden(View view){
+        Uri uri = Uri.parse("geo:0,0?q=" + "Oracle Arena" + ", " + "7000 Coliseum Way, Oakland, CA 94621, EUA");
+        Intent mapIntent = new Intent(Intent.ACTION_VIEW, uri);
+        mapIntent.setPackage("com.google.android.apps.maps");
+        startActivity(mapIntent);
+    }
+    public void equipeRaptors(View view) {
+        String url = "https://pt.wikipedia.org/wiki/Toronto_Raptors";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+    }
+    public void equipeGS(View view) {
+        String url = "https://pt.wikipedia.org/wiki/Golden_State_Warriors";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+    }
+    public void equipeBucks(View view) {
+        String url = "https://pt.wikipedia.org/wiki/Milwaukee_Bucks";
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse(url));
         startActivity(i);
     }
 
+    public void memberPascalSiakam(View view) {
+        String url = "https://pt.wikipedia.org/wiki/Pascal_Siakam";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+    }
+    public void memberKawhiLeonard(View view) {
+        String url = "https://pt.wikipedia.org/wiki/Kawhi_Leonard";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+    }
+    public void memberKyleLowry(View view) {
+        String url = "https://pt.wikipedia.org/wiki/Kyle_Lowry";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+    }
+    public void memberMarcGasol(View view) {
+        String url = "https://pt.wikipedia.org/wiki/Marc_Gasol";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+    }
 
 }

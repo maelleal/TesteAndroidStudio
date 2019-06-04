@@ -37,4 +37,25 @@
     <string name="time_tr">Toronto Raptors</string>
     <string name="time_gsw">Golden St. Warriors</string>
 
+
+    <string name="teamMember">"Equipe</string>
+    <string name="teamMember0">"Nick Nurse - Técnico</string>
+    <string name="teamMember1">"Kawhi Leonard - Ala</string>
+    <string name="teamMember2">"Kyle Lowry - Armador</string>
+    <string name="teamMember3">"Pascal Siakam - Ala-Pivô</string>
+    <string name="teamMember4">"Marc Gasol - Pivô</string>
+    <string name="teamMember5">"Serge Ibaka - Ala-Pivô</string>
+    <string name="teamMember6">"Norman Powell - Ala</string>
+    <string name="teamMember7">"Fred VanVleet - Armador</string>
+
+    <string name="teamMember00">"Antes de chegar ao Toronto, Nick Nurse rodou por 5 países e quase jogou em Belo Horizonte...continue lendo</string>
+    <string name="teamMember10">"Foi selecionado como a 15ª escolha no draft da NBA de 2011 pelo Indiana Pacers, mas foi negociado com o San Antonio Spurs...continue lendo</string>
+    <string name="teamMember20">"Lowry é um dos líderes do Toronto Raptors, levando-os aos playoffs por 3 vezes consecutivas e vencendo a divisão do atlântico nestas oportunidades...continue lendo</string>
+    <string name="teamMember30">"Siakam começou atuando na Universidade do Estado do Novo Mexico em 2013...continue lendo</string>
+    <string name="teamMember40">"Gasol jogou pelo Barcelona entre 2003-2006. Depois, no ano de 2008 tinha sido confirmado que jogaria na NBA pela equipe do Memphis Grizzlies...continue lendo</string>
+    <string name="teamMember50">"Ibaka nasceu em Brazzaville , República do Congo. Sua mãe e seu pai eram jogadores de basquete...continue lendo</string>
+    <string name="teamMember60">"Norman Powell foi draftado em 2015 na segunda rodada pelo Milwaukee Bucks...continue lendo</string>
+    <string name="teamMember70">"Fred VanVleet é um jogador norte-americano de basquete profissional que atualmente joga pelo Toronto Raptors...continue lendo</string>
+
+
 </resources>
